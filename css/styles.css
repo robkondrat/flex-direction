@@ -177,6 +177,32 @@ img {
   align-self:flex-end;
 }
 
+.item.large {
+  font-size: 40px;
+}
+
+.item.small {
+  font-size: 20px;
+}
+
+.item {
+  background:rgba(255,255,255,0.2);
+  margin:10px;
+  padding:20px;
+  font-size: 30px;
+}
+
+.elements {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.item {
+  flex:1 1 calc(33.333% - 20px);
+  justify-content:stretch;
+
+}
+
 
 @media all and (max-width:1000px) {
   
